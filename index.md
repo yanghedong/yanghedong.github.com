@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 我的Blog
+title: 思考与备忘 
 ---
-## {{ page.title }}</h2>
+## {{ page.title }}
 
 最新文章
 <ul>
