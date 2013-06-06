@@ -1,13 +1,12 @@
 ---
-layout: default
-title: 思考与备忘 
+layout: page
 ---
-## {{ page.title }}
+{% include JB/setup %}
 
-最新文章
-<ul>
-　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
 

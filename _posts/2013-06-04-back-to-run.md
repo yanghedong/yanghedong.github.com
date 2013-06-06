@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
+category: 跑步
+tags : [跑步, 马拉松, 配速, 东操]
 title: 恢复跑步
 ---
-##{{ page.title }}
 
 有*7*个月没有跑步了，意识到这一点时，还是小吃了一惊。
 
@@ -14,5 +15,4 @@ title: 恢复跑步
 
 06.06: 今天跑了30圈，其中跟着协会测试5k的女生跑2m的配速，坚持了下来。但是后来的10多圈，速度直接到了2m40以外了。
 
-{{ page.date | date_to_string }}
 
