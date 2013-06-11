@@ -15,9 +15,10 @@ tags: [报告, PPT]
 
 上午比较理想的是，时间控制得比较好，提前一分钟结束。
 
-##备忘
+###备忘
 对于几乎没有受众的报告，最好能加一些通俗的图片或笑话，或者是增加互动的工具或系统.
 
 自己常用的模板:
-* 中文: https://github.com/hunter99/SlidesTemplateCN
-* 英文: https://github.com/hunter99/SlidesTemplateEN
+
+- 中文: https://github.com/hunter99/SlidesTemplateCN
+- 英文: https://github.com/hunter99/SlidesTemplateEN
