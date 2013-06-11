@@ -21,8 +21,8 @@ title: 恢复跑步
 06.10: 天气真好，没有跑步
 06.11: 下午一阵冰雹之后，天气晴好。东操30圈，87分钟。
     * 晚上查阅资料，使得ubuntu+firefox能读garmin305数据。
-````sh
-	$$\texttt{sudo /sbin/rmmod garmin_gps }$$
+````
+	sudo /sbin/rmmod garmin_gps
 ````
 06.12: todo 测runningahead读garmin, 及garmin_get_info
 
