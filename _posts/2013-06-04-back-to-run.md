@@ -24,6 +24,6 @@ title: 恢复跑步
 ```sh
 	sudo /sbin/rmmod garmin_gps
 ```
-1. 06.12: todo 测runningahead读garmin, 及garmin_get_info
+1. 06.12: 跟妻子和岳父母一起过端午节。runningahead及garmin_get_info不能读garmin 305. 跑30圈，74分钟.
 
 
