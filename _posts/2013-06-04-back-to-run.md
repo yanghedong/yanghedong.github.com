@@ -25,5 +25,5 @@ title: 恢复跑步
 	sudo /sbin/rmmod garmin_gps
 ```
 1. 06.12: 跟妻子和岳父母一起过端午节。runningahead及garmin_get_info不能读garmin 305. 跑30圈，74分钟.
-
+1. 06.13: 有点薄云，有点风，但下午的东操仍是又晒、又干、又热。25圈，63分钟
 
