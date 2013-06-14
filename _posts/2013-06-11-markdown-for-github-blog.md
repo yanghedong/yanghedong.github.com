@@ -19,5 +19,5 @@ $\sum_{i=1}^{10}i=55$
 
 ###备忘
 
-1. markdown 语法 : http://daringfireball.net/projects/markdown/syntax
-1. github flavored markdown: http://github.github.com/github-flavored-markdown/
+1. [markdown 语法](http://daringfireball.net/projects/markdown/syntax)
+1. [github flavored markdown](http://github.github.com/github-flavored-markdown/)
