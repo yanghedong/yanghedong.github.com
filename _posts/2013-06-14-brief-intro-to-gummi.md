@@ -15,7 +15,7 @@ $\LaTeX$主张所思即所得(WYTIWYG)，所以主流的编辑器都是标准的
 意义上说，它有了所见即所得(WYSIWYG)的功效。除此之外，它还支持SyncTeX用于在生成的pdf与源代码之间互相定位显示，比如在右
 栏的pdf显示上ctrl+点击可以定位点击位置对应的源代码，在左栏源代码某行作改动则右侧自动将屏幕滚动到修改处并显示改动的效果。
 
-Gummi还有其它功能，比如代码片段功能，输入item+tab，就可以自动生成itemize环境。
+Gummi还有其它功能，比如代码片段功能，输入item然后tab，就可以自动生成itemize环境。
 
 ### 文档定位
 
@@ -26,7 +26,7 @@ Gummi还有其它功能，比如代码片段功能，输入item+tab，就可以�
   1. 如果tex文件是绝对路径，就直接使用。
   1. 如果tex文件是相对路径，就"当前路径"加上"$\textrm{kpeswich test.tex}$"的返回值，比如结果就是"$\textrm{/home/user/./test.tex}$"。
 
-```shell
+```sh
   xelatex -synctex=1 test.tex
   xelatex -synctex=1 /home/user/test2.tex
 ```
