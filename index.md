@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 备忘与思考
 ---
 {% include JB/setup %}
 
