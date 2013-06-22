@@ -1,9 +1,19 @@
+<div itemscope itemtype="http://www.schema.org/Blog">
+	<div style="display:none">
+		<span itemprop="author" itemscope itemtype="http://www.schema.org/Person">
+			<span itemprop="name">Hedong Yang</span>
+		</span>
+		<span itemprop="description">A personal blog publishes some
+			technical notes which may be useful for others.</span>
+		<span itemprop="url">http://yanghedong.github.com</span>
+	</div>
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+  <h1 itemprop="headline">{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
 
 <div class="row-fluid">
-  <div class="span12">
+  <div class="span12" itemprop="text">
     {{ content }}
   </div>
+</div>
 </div>

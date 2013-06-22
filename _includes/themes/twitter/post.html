@@ -1,13 +1,16 @@
+<div  itemscope itemtype="http://www.schema.org/BlogPosting">
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1 itemprop="headline">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
-
 <div class="row-fluid post-full">
   <div class="span12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+    <div class="date" >
+	  <span itemprop="author" itemscope
+		  itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span>
+		  </span>, <span style="display:none" itemprop="description">{{ page.description }}</span>
+      <span itemprop="dateCreated">{{ page.date | date_to_long_string }}</span>
     </div>
-    <div class="content">
+    <div class="content" itemprop="text">
       {{ content }}
     </div>
 
@@ -47,4 +50,5 @@
     <hr>
     {% include JB/comments %}
   </div>
+</div>
 </div>
