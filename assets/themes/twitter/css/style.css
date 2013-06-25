@@ -84,3 +84,6 @@ background: inherit;
 border: inherit;
 color: #000000;
 }
+.content p{
+ text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+}
