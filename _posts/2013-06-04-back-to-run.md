@@ -2,6 +2,7 @@
 layout: post
 category: 跑步
 tags : [跑步, 马拉松, 配速, 东操]
+description: "备战北京马拉松的训练记录"
 title: 恢复跑步
 ---
 
