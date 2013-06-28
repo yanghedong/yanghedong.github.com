@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "github日志的markdown语法"
-description: ""
+description: "(github支持的)markdown语法及其举例"
 category: [备忘]
 tags: [markdown, github]
 ---
