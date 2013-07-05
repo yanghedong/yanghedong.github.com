@@ -4,7 +4,7 @@ title: 备忘与思考
 ---
 {% include JB/setup %}
 
-
+<div class="span10">
 {% for post in site.posts %}
 <div class="post">
   <h3 class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date_to_string }}</span></h3>
@@ -12,9 +12,9 @@ title: 备忘与思考
   <div class="more"><a href="{{ BASE_PATH }}{{ post.url }}" alt="read more...">阅读全文</a></div>
 </div>
 {% endfor %}
+</div>
 
-
-<div class="span4">
+<div class="span2">
  <div id="sidebar">
   <div id="recentcomments" class="dsq-widget">
    <h2 class="dsq-widget-title">Recent Comments</h2>

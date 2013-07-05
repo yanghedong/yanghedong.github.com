@@ -87,3 +87,30 @@ color: #000000;
 .content p{
  text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
 }
+#sidebar {
+  margin-left: 5px;
+  padding-left: 15px;
+  border-left: 1px solid #e0e0e0;
+}
+/* disqus customization */
+#sidebar img.dsq-widget-avatar {
+    display: none;
+}
+#sidebar a.dsq-widget-user:after {
+    content: ': ';
+}
+#sidebar p.dsq-widget-meta > a:first-child {
+    display: none;
+}
+#sidebar p.dsq-widget-meta {
+    font-size: 0;
+}
+#sidebar p.dsq-widget-meta > a {
+    font-size: 12px;
+}
+#sidebar p.dsq-widget-meta > a:after {
+    content: ' »';
+}
+#sidebar p.dsq-widget-meta > a:before {
+    content: 'posted ';
+}
