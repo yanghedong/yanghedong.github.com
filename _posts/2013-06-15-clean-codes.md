@@ -2,7 +2,7 @@
 layout: post
 title: 整洁代码
 description: "代码的整洁或优雅程度，反应出一个程序员的职业教养，不可不注意。"
-category: [开发]
+category: 开发
 tags: [programming, Java]
 ---
 {% include JB/setup %}
